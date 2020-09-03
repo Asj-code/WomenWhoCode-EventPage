@@ -6,7 +6,7 @@ article {
     img{
         width: $img-width;
         height: $img-height;
-        animation: animationImg linear 1s;
+        animation: animationImg linear 2s;
         animation-iteration-count: 1;
         transform-origin: 50% 50%;
         @keyframes animationImg{

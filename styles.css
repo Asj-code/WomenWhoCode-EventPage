@@ -34,15 +34,15 @@ header {
 @media (min-width: 360px) {
   header {
     background-size: cover;
-    background-position: center;
-    height: 200px;
+    background-position: top;
+    height: 60px;
   }
 }
 @media (min-width: 360px) and (min-width: 768px) {
   header {
     background-size: cover;
-    background-position: bottom;
-    height: 200px;
+    background-position: top;
+    height: 100px;
   }
 }
 @media (min-width: 360px) and (min-width: 1260px) {
@@ -90,32 +90,12 @@ h1 {
 }
 @keyframes slide-in {
   0% {
-    transform: translateX(-1000px);
+    transform: translateX(-500px);
     animation-timing-function: ease-in;
   }
   38% {
     transform: translateX(0);
     animation-timing-function: ease-out;
-  }
-  55% {
-    transform: translateX(-68px);
-    animation-timing-function: ease-in;
-  }
-  72% {
-    transform: translateX(0);
-    animation-timing-function: ease-out;
-  }
-  81% {
-    transform: translateX(-28px);
-    animation-timing-function: ease-in;
-  }
-  90% {
-    transform: translateX(0);
-    animation-timing-function: ease-out;
-  }
-  95% {
-    transform: translateX(-8px);
-    animation-timing-function: ease-in;
   }
   100% {
     transform: translateX(0);
@@ -241,15 +221,15 @@ header {
 @media (min-width: 360px) {
   header {
     background-size: cover;
-    background-position: center;
-    height: 200px;
+    background-position: top;
+    height: 60px;
   }
 }
 @media (min-width: 360px) and (min-width: 768px) {
   header {
     background-size: cover;
-    background-position: bottom;
-    height: 200px;
+    background-position: top;
+    height: 100px;
   }
 }
 @media (min-width: 360px) and (min-width: 1260px) {
@@ -297,32 +277,12 @@ h1 {
 }
 @keyframes slide-in {
   0% {
-    transform: translateX(-1000px);
+    transform: translateX(-500px);
     animation-timing-function: ease-in;
   }
   38% {
     transform: translateX(0);
     animation-timing-function: ease-out;
-  }
-  55% {
-    transform: translateX(-68px);
-    animation-timing-function: ease-in;
-  }
-  72% {
-    transform: translateX(0);
-    animation-timing-function: ease-out;
-  }
-  81% {
-    transform: translateX(-28px);
-    animation-timing-function: ease-in;
-  }
-  90% {
-    transform: translateX(0);
-    animation-timing-function: ease-out;
-  }
-  95% {
-    transform: translateX(-8px);
-    animation-timing-function: ease-in;
   }
   100% {
     transform: translateX(0);
@@ -424,15 +384,15 @@ header {
 @media (min-width: 360px) {
   header {
     background-size: cover;
-    background-position: center;
-    height: 200px;
+    background-position: top;
+    height: 60px;
   }
 }
 @media (min-width: 360px) and (min-width: 768px) {
   header {
     background-size: cover;
-    background-position: bottom;
-    height: 200px;
+    background-position: top;
+    height: 100px;
   }
 }
 @media (min-width: 360px) and (min-width: 1260px) {
@@ -480,32 +440,12 @@ h1 {
 }
 @keyframes slide-in {
   0% {
-    transform: translateX(-1000px);
+    transform: translateX(-500px);
     animation-timing-function: ease-in;
   }
   38% {
     transform: translateX(0);
     animation-timing-function: ease-out;
-  }
-  55% {
-    transform: translateX(-68px);
-    animation-timing-function: ease-in;
-  }
-  72% {
-    transform: translateX(0);
-    animation-timing-function: ease-out;
-  }
-  81% {
-    transform: translateX(-28px);
-    animation-timing-function: ease-in;
-  }
-  90% {
-    transform: translateX(0);
-    animation-timing-function: ease-out;
-  }
-  95% {
-    transform: translateX(-8px);
-    animation-timing-function: ease-in;
   }
   100% {
     transform: translateX(0);
@@ -668,15 +608,15 @@ header {
 @media (min-width: 360px) {
   header {
     background-size: cover;
-    background-position: center;
-    height: 200px;
+    background-position: top;
+    height: 60px;
   }
 }
 @media (min-width: 360px) and (min-width: 768px) {
   header {
     background-size: cover;
-    background-position: bottom;
-    height: 200px;
+    background-position: top;
+    height: 100px;
   }
 }
 @media (min-width: 360px) and (min-width: 1260px) {
@@ -724,32 +664,12 @@ h1 {
 }
 @keyframes slide-in {
   0% {
-    transform: translateX(-1000px);
+    transform: translateX(-500px);
     animation-timing-function: ease-in;
   }
   38% {
     transform: translateX(0);
     animation-timing-function: ease-out;
-  }
-  55% {
-    transform: translateX(-68px);
-    animation-timing-function: ease-in;
-  }
-  72% {
-    transform: translateX(0);
-    animation-timing-function: ease-out;
-  }
-  81% {
-    transform: translateX(-28px);
-    animation-timing-function: ease-in;
-  }
-  90% {
-    transform: translateX(0);
-    animation-timing-function: ease-out;
-  }
-  95% {
-    transform: translateX(-8px);
-    animation-timing-function: ease-in;
   }
   100% {
     transform: translateX(0);
@@ -826,7 +746,7 @@ footer {
 article img {
   width: 150px;
   height: 80px;
-  animation: animationImg linear 1s;
+  animation: animationImg linear 2s;
   animation-iteration-count: 1;
   transform-origin: 50% 50%;
 }
@@ -879,15 +799,15 @@ header {
 @media (min-width: 360px) {
   header {
     background-size: cover;
-    background-position: center;
-    height: 200px;
+    background-position: top;
+    height: 60px;
   }
 }
 @media (min-width: 360px) and (min-width: 768px) {
   header {
     background-size: cover;
-    background-position: bottom;
-    height: 200px;
+    background-position: top;
+    height: 100px;
   }
 }
 @media (min-width: 360px) and (min-width: 1260px) {
@@ -935,32 +855,12 @@ h1 {
 }
 @keyframes slide-in {
   0% {
-    transform: translateX(-1000px);
+    transform: translateX(-500px);
     animation-timing-function: ease-in;
   }
   38% {
     transform: translateX(0);
     animation-timing-function: ease-out;
-  }
-  55% {
-    transform: translateX(-68px);
-    animation-timing-function: ease-in;
-  }
-  72% {
-    transform: translateX(0);
-    animation-timing-function: ease-out;
-  }
-  81% {
-    transform: translateX(-28px);
-    animation-timing-function: ease-in;
-  }
-  90% {
-    transform: translateX(0);
-    animation-timing-function: ease-out;
-  }
-  95% {
-    transform: translateX(-8px);
-    animation-timing-function: ease-in;
   }
   100% {
     transform: translateX(0);
