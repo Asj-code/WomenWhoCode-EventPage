@@ -1,0 +1,41 @@
+@import 'main';
+@import 'variables';
+
+
+
+.oradores{
+    margin-bottom: 1%;
+    
+    @media (min-width: 360px){
+        position: relative;
+        width: 100%;
+        margin-bottom: 30px;
+
+    @media (min-width: 1280px){
+        width: 50%; 
+        position: absolute;
+    }
+    } 
+    i{
+        color: $bg-terciary;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+}
+.orador{
+    margin-bottom: 20px;
+    .info{
+        
+        @media (min-width:360px){
+            position: relative;
+            left: 0;
+        @media (min-width:1280px){
+            position: absolute;
+            left: 25%;
+        }
+        }
+    }
+}

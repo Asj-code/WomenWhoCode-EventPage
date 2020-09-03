@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100&family=Playfair+Display:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gayathri', sans-serif;
+}
+
+%button {  
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    color: $bg-primary;
+    filter: brightness(90%);
+    &:hover{
+        filter: brightness(110%);
+    }
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+    font-family: $font-title;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+main{
+    padding: 2%;
+      
+}
+header{
+    background-image: url("https://secure.meetupstatic.com/photos/event/a/f/9/8/highres_491984952.jpeg");
+    background-repeat: no-repeat;
+    
+    @media (min-width: 360px){
+        background-size: cover;
+        background-position: center;
+        height: 200px; 
+    @media (min-width: 768px){
+        background-size: cover;
+        background-position: bottom;
+        height: 200px;    
+    } 
+    @media (min-width:1260px){
+        background-size: cover;
+        background-position: bottom;
+        width: 100%;
+        height: 400px;
+    }
+      
+}
+    
+}
+
+nav{
+    text-align: center;
+    background-color: $bg-secondary;
+    height: 10px;
+    padding: 2%;
+    font-size: 20px;
+    @media (min-width: 360px){
+        height: 20px;
+    }
+    ul{
+       
+        li{
+            display: inline;
+            padding: 2%;
+        }
+        a{
+            text-decoration: none;
+            color: $bg-terciary;
+            @media (min-width: 360px){
+                font-size: 15px;
+            }
+            &:hover{
+                color:  $text1;
+            }
+        }
+    }
+}
+
+form{
+    background: $bg-secondary;
+    padding: 2%;
+    border-radius: 10px;
+    border: 2px solid $border-primary;
+    margin-bottom: 2%;
+    @media (min-width: 360px){
+        position: relative;
+        width: 95%;
+        float: left;
+    @media (min-width: 768px){
+        position: relative;
+        top: 170%;
+        width: 90%;
+    @media (min-width: 1280px){
+        position: relative;
+        float: right;
+        width: 50%;
+    }
+        
+        }
+    }   
+    input{
+        border-radius: 5px;
+        border: 1px solid $border-primary;
+        width: 90%;
+        padding: 10px;
+        display: block;
+        &:focus{
+            border: 1px dashed $btn-primary;
+        }
+    }
+    textarea{
+        resize: none;
+    }
+    label{
+        display: inline-block;
+        margin: 10px 0;
+    }
+    .ctn-btn {
+        width: $img-width;
+        text-align: center;
+        margin: 20px 5px;
+        button[type="reset"]{
+            
+            @extend %button;
+            background: $bg-terciary;
+        }
+        button[type="submit"]{
+            @extend %button;
+            background: $text1;
+        }
+    }
+    
+}

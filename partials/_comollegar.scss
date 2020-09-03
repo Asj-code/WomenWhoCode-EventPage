@@ -1,0 +1,9 @@
+@import 'main';
+@import 'variables';
+
+.map {
+    @media (min-width: 360px){
+        width: 70%;
+        height: 300px;
+    }
+}
