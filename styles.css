@@ -23,15 +23,6 @@ form .ctn-btn button[type=submit]:hover, form .ctn-btn button[type=reset]:hover 
   filter: brightness(110%);
 }
 
-h1, h2 {
-  margin-bottom: 20px;
-  font-family: "Playfair Display", serif;
-}
-
-h2 {
-  margin-bottom: 10px;
-}
-
 main {
   padding: 2%;
 }
@@ -57,9 +48,9 @@ header {
 @media (min-width: 360px) and (min-width: 1260px) {
   header {
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
     width: 100%;
-    height: 400px;
+    height: 200px;
   }
 }
 
@@ -154,6 +145,46 @@ footer {
   text-align: center;
   font-size: 15px;
   padding-top: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
+  animation: slide-in 2s both;
+}
+@keyframes slide-in {
+  0% {
+    transform: translateX(-1000px);
+    animation-timing-function: ease-in;
+  }
+  38% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
+  55% {
+    transform: translateX(-68px);
+    animation-timing-function: ease-in;
+  }
+  72% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
+  81% {
+    transform: translateX(-28px);
+    animation-timing-function: ease-in;
+  }
+  90% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
+  95% {
+    transform: translateX(-8px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
 }
 
 article {
@@ -198,15 +229,6 @@ form .ctn-btn button[type=reset]:hover, form .ctn-btn button[type=submit]:hover 
   filter: brightness(110%);
 }
 
-h1, h2 {
-  margin-bottom: 20px;
-  font-family: "Playfair Display", serif;
-}
-
-h2 {
-  margin-bottom: 10px;
-}
-
 main {
   padding: 2%;
 }
@@ -232,9 +254,9 @@ header {
 @media (min-width: 360px) and (min-width: 1260px) {
   header {
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
     width: 100%;
-    height: 400px;
+    height: 200px;
   }
 }
 
@@ -329,6 +351,46 @@ footer {
   text-align: center;
   font-size: 15px;
   padding-top: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
+  animation: slide-in 2s both;
+}
+@keyframes slide-in {
+  0% {
+    transform: translateX(-1000px);
+    animation-timing-function: ease-in;
+  }
+  38% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
+  55% {
+    transform: translateX(-68px);
+    animation-timing-function: ease-in;
+  }
+  72% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
+  81% {
+    transform: translateX(-28px);
+    animation-timing-function: ease-in;
+  }
+  90% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
+  95% {
+    transform: translateX(-8px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
 }
 
 * {
@@ -349,15 +411,6 @@ form .ctn-btn button[type=reset]:hover, form .ctn-btn button[type=submit]:hover 
   filter: brightness(110%);
 }
 
-h1, h2 {
-  margin-bottom: 20px;
-  font-family: "Playfair Display", serif;
-}
-
-h2 {
-  margin-bottom: 10px;
-}
-
 main {
   padding: 2%;
 }
@@ -383,9 +436,9 @@ header {
 @media (min-width: 360px) and (min-width: 1260px) {
   header {
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
     width: 100%;
-    height: 400px;
+    height: 200px;
   }
 }
 
@@ -480,6 +533,46 @@ footer {
   text-align: center;
   font-size: 15px;
   padding-top: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
+  animation: slide-in 2s both;
+}
+@keyframes slide-in {
+  0% {
+    transform: translateX(-1000px);
+    animation-timing-function: ease-in;
+  }
+  38% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
+  55% {
+    transform: translateX(-68px);
+    animation-timing-function: ease-in;
+  }
+  72% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
+  81% {
+    transform: translateX(-28px);
+    animation-timing-function: ease-in;
+  }
+  90% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
+  95% {
+    transform: translateX(-8px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
 }
 
 /*segmentación de estilos*/
@@ -524,6 +617,25 @@ footer {
   }
 }
 
+h2 {
+  margin-bottom: 10px;
+  font-family: "Playfair Display", serif;
+  animation: animationFrames ease 1s;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  animation-fill-mode: forwards;
+}
+@keyframes animationFrames {
+  0% {
+    opacity: 0;
+    transform: translate(0px, -25px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -540,15 +652,6 @@ form .ctn-btn button[type=reset], form .ctn-btn button[type=submit] {
 }
 form .ctn-btn button[type=reset]:hover, form .ctn-btn button[type=submit]:hover {
   filter: brightness(110%);
-}
-
-h1, h2 {
-  margin-bottom: 20px;
-  font-family: "Playfair Display", serif;
-}
-
-h2 {
-  margin-bottom: 10px;
 }
 
 main {
@@ -576,9 +679,9 @@ header {
 @media (min-width: 360px) and (min-width: 1260px) {
   header {
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
     width: 100%;
-    height: 400px;
+    height: 200px;
   }
 }
 
@@ -673,12 +776,73 @@ footer {
   text-align: center;
   font-size: 15px;
   padding-top: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
+  animation: slide-in 2s both;
+}
+@keyframes slide-in {
+  0% {
+    transform: translateX(-1000px);
+    animation-timing-function: ease-in;
+  }
+  38% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
+  55% {
+    transform: translateX(-68px);
+    animation-timing-function: ease-in;
+  }
+  72% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
+  81% {
+    transform: translateX(-28px);
+    animation-timing-function: ease-in;
+  }
+  90% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
+  95% {
+    transform: translateX(-8px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
 }
 
 /*segmentación de estilos*/
 article img {
   width: 150px;
   height: 80px;
+  animation: animationImg linear 1s;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+}
+@keyframes animationImg {
+  0% {
+    opacity: 1;
+    transform: scaleX(1) scaleY(1);
+  }
+  25% {
+    opacity: 1;
+    transform: scaleX(0.95) scaleY(0.95);
+  }
+  50% {
+    opacity: 1;
+    transform: scaleX(1.1) scaleY(1.1);
+  }
+  100% {
+    opacity: 0;
+    transform: scaleX(0.3) scaleY(0.3);
+  }
 }
 
 /*segmentación de estilos*/
@@ -698,15 +862,6 @@ form .ctn-btn button[type=reset], form .ctn-btn button[type=submit] {
 }
 form .ctn-btn button[type=reset]:hover, form .ctn-btn button[type=submit]:hover {
   filter: brightness(110%);
-}
-
-h1, h2 {
-  margin-bottom: 20px;
-  font-family: "Playfair Display", serif;
-}
-
-h2 {
-  margin-bottom: 10px;
 }
 
 main {
@@ -734,9 +889,9 @@ header {
 @media (min-width: 360px) and (min-width: 1260px) {
   header {
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
     width: 100%;
-    height: 400px;
+    height: 200px;
   }
 }
 
@@ -831,6 +986,46 @@ footer {
   text-align: center;
   font-size: 15px;
   padding-top: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
+  animation: slide-in 2s both;
+}
+@keyframes slide-in {
+  0% {
+    transform: translateX(-1000px);
+    animation-timing-function: ease-in;
+  }
+  38% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
+  55% {
+    transform: translateX(-68px);
+    animation-timing-function: ease-in;
+  }
+  72% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
+  81% {
+    transform: translateX(-28px);
+    animation-timing-function: ease-in;
+  }
+  90% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
+  95% {
+    transform: translateX(-8px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
 }
 
 /*segmentación de estilos*/

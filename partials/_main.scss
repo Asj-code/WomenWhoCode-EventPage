@@ -18,14 +18,6 @@
     }
 }
 
-h1, h2 {
-    margin-bottom: 20px;
-    font-family: $font-title;
-}
-
-h2{
-    margin-bottom: 10px;
-}
 
 main{
     padding: 2%;
@@ -46,9 +38,9 @@ header{
     } 
     @media (min-width:1260px){
         background-size: cover;
-        background-position: bottom;
+        background-position: top;
         width: 100%;
-        height: 400px;
+        height: 200px;
     }
       
 }
@@ -145,3 +137,50 @@ footer {
     font-size: 15px;
     padding-top: 20px;
 }
+
+h1 {
+    margin-bottom: 20px;
+    font-family: $font-title;
+    animation: slide-in 2s both;
+    @keyframes slide-in {
+        0% {
+          transform: translateX(-1000px);
+          animation-timing-function: ease-in;
+        }
+        38% {
+          transform: translateX(0);
+          animation-timing-function: ease-out;
+        }
+        55% {
+          transform: translateX(-68px);
+          animation-timing-function: ease-in;
+        }
+        72% {
+          transform: translateX(0);
+          animation-timing-function: ease-out;
+        }
+        81% {
+          transform: translateX(-28px);
+          animation-timing-function: ease-in;
+        }
+        90% {
+          transform: translateX(0);
+          animation-timing-function: ease-out;
+        }
+        95% {
+          transform: translateX(-8px);
+          animation-timing-function: ease-in;
+        }
+        100% {
+          transform: translateX(0);
+          animation-timing-function: ease-out;
+        }
+      }
+      
+}
+
+
+
+
+
+  
