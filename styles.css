@@ -149,6 +149,13 @@ form .ctn-btn button[type=submit] {
   background: #ef97c1;
 }
 
+footer {
+  clear: both;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 20px;
+}
+
 article {
   position: absolute;
   display: block;
@@ -317,6 +324,13 @@ form .ctn-btn button[type=submit] {
   background: #ef97c1;
 }
 
+footer {
+  clear: both;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 20px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -459,6 +473,13 @@ form .ctn-btn button[type=reset] {
 }
 form .ctn-btn button[type=submit] {
   background: #ef97c1;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 20px;
 }
 
 /*segmentación de estilos*/
@@ -647,6 +668,13 @@ form .ctn-btn button[type=submit] {
   background: #ef97c1;
 }
 
+footer {
+  clear: both;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 20px;
+}
+
 /*segmentación de estilos*/
 article img {
   width: 150px;
@@ -796,6 +824,13 @@ form .ctn-btn button[type=reset] {
 }
 form .ctn-btn button[type=submit] {
   background: #ef97c1;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 20px;
 }
 
 /*segmentación de estilos*/
