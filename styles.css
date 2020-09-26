@@ -45,7 +45,7 @@ header {
     height: 100px;
   }
 }
-@media (min-width: 360px) and (min-width: 1260px) {
+@media (min-width: 360px) and (min-width: 1220px) {
   header {
     background-size: cover;
     background-position: top;
@@ -110,25 +110,26 @@ form {
   border: 2px solid #ACC6D6;
   margin-bottom: 2%;
 }
-@media (min-width: 360px) {
+@media (min-width: 320px) {
   form {
     position: relative;
     width: 95%;
     float: left;
   }
 }
-@media (min-width: 360px) and (min-width: 768px) {
+@media (min-width: 320px) and (min-width: 768px) {
   form {
     position: relative;
     top: 170%;
     width: 90%;
   }
 }
-@media (min-width: 360px) and (min-width: 768px) and (min-width: 1280px) {
+@media (min-width: 320px) and (min-width: 768px) and (min-width: 1220px) {
   form {
     position: relative;
     float: right;
     width: 50%;
+    margin-top: 40px;
   }
 }
 form input {
@@ -178,7 +179,7 @@ article {
     width: 90%;
   }
 }
-@media (min-width: 360px) and (min-width: 1280px) {
+@media (min-width: 360px) and (min-width: 1220px) {
   article {
     float: left;
     width: 40%;
@@ -232,7 +233,7 @@ header {
     height: 100px;
   }
 }
-@media (min-width: 360px) and (min-width: 1260px) {
+@media (min-width: 360px) and (min-width: 1220px) {
   header {
     background-size: cover;
     background-position: top;
@@ -297,25 +298,26 @@ form {
   border: 2px solid #ACC6D6;
   margin-bottom: 2%;
 }
-@media (min-width: 360px) {
+@media (min-width: 320px) {
   form {
     position: relative;
     width: 95%;
     float: left;
   }
 }
-@media (min-width: 360px) and (min-width: 768px) {
+@media (min-width: 320px) and (min-width: 768px) {
   form {
     position: relative;
     top: 170%;
     width: 90%;
   }
 }
-@media (min-width: 360px) and (min-width: 768px) and (min-width: 1280px) {
+@media (min-width: 320px) and (min-width: 768px) and (min-width: 1220px) {
   form {
     position: relative;
     float: right;
     width: 50%;
+    margin-top: 40px;
   }
 }
 form input {
@@ -395,7 +397,7 @@ header {
     height: 100px;
   }
 }
-@media (min-width: 360px) and (min-width: 1260px) {
+@media (min-width: 360px) and (min-width: 1220px) {
   header {
     background-size: cover;
     background-position: top;
@@ -460,25 +462,26 @@ form {
   border: 2px solid #ACC6D6;
   margin-bottom: 2%;
 }
-@media (min-width: 360px) {
+@media (min-width: 320px) {
   form {
     position: relative;
     width: 95%;
     float: left;
   }
 }
-@media (min-width: 360px) and (min-width: 768px) {
+@media (min-width: 320px) and (min-width: 768px) {
   form {
     position: relative;
     top: 170%;
     width: 90%;
   }
 }
-@media (min-width: 360px) and (min-width: 768px) and (min-width: 1280px) {
+@media (min-width: 320px) and (min-width: 768px) and (min-width: 1220px) {
   form {
     position: relative;
     float: right;
     width: 50%;
+    margin-top: 40px;
   }
 }
 form input {
@@ -529,7 +532,7 @@ footer {
     margin-bottom: 30px;
   }
 }
-@media (min-width: 360px) and (min-width: 1280px) {
+@media (min-width: 360px) and (min-width: 1220px) {
   .oradores {
     width: 50%;
     position: absolute;
@@ -553,7 +556,7 @@ footer {
     left: 0;
   }
 }
-@media (min-width: 360px) and (min-width: 1280px) {
+@media (min-width: 360px) and (min-width: 1220px) {
   .orador .info {
     position: absolute;
     left: 25%;
@@ -619,7 +622,7 @@ header {
     height: 100px;
   }
 }
-@media (min-width: 360px) and (min-width: 1260px) {
+@media (min-width: 360px) and (min-width: 1220px) {
   header {
     background-size: cover;
     background-position: top;
@@ -684,25 +687,26 @@ form {
   border: 2px solid #ACC6D6;
   margin-bottom: 2%;
 }
-@media (min-width: 360px) {
+@media (min-width: 320px) {
   form {
     position: relative;
     width: 95%;
     float: left;
   }
 }
-@media (min-width: 360px) and (min-width: 768px) {
+@media (min-width: 320px) and (min-width: 768px) {
   form {
     position: relative;
     top: 170%;
     width: 90%;
   }
 }
-@media (min-width: 360px) and (min-width: 768px) and (min-width: 1280px) {
+@media (min-width: 320px) and (min-width: 768px) and (min-width: 1220px) {
   form {
     position: relative;
     float: right;
     width: 50%;
+    margin-top: 40px;
   }
 }
 form input {
@@ -810,7 +814,7 @@ header {
     height: 100px;
   }
 }
-@media (min-width: 360px) and (min-width: 1260px) {
+@media (min-width: 360px) and (min-width: 1220px) {
   header {
     background-size: cover;
     background-position: top;
@@ -875,25 +879,26 @@ form {
   border: 2px solid #ACC6D6;
   margin-bottom: 2%;
 }
-@media (min-width: 360px) {
+@media (min-width: 320px) {
   form {
     position: relative;
     width: 95%;
     float: left;
   }
 }
-@media (min-width: 360px) and (min-width: 768px) {
+@media (min-width: 320px) and (min-width: 768px) {
   form {
     position: relative;
     top: 170%;
     width: 90%;
   }
 }
-@media (min-width: 360px) and (min-width: 768px) and (min-width: 1280px) {
+@media (min-width: 320px) and (min-width: 768px) and (min-width: 1220px) {
   form {
     position: relative;
     float: right;
     width: 50%;
+    margin-top: 40px;
   }
 }
 form input {
@@ -934,10 +939,25 @@ footer {
 }
 
 /*segmentación de estilos*/
-@media (min-width: 360px) {
+@media screen and (min-width: 768px) {
   .map {
-    width: 70%;
-    height: 300px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .maps iframe {
+    width: 350px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .maps iframe {
+    width: 700px;
+  }
+}
+@media screen and (min-width: 1220px) {
+  .maps iframe {
+    width: 500px;
   }
 }
 

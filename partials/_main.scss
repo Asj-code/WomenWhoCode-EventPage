@@ -35,7 +35,7 @@ header{
         background-position: top;
         height: 100px;    
     } 
-    @media (min-width:1260px){
+    @media (min-width:1220px){
         background-size: cover;
         background-position: top;
         width: 100%;
@@ -99,7 +99,7 @@ form{
     border-radius: 10px;
     border: 2px solid $border-primary;
     margin-bottom: 2%;
-    @media (min-width: 360px){
+    @media (min-width: 320px){
         position: relative;
         width: 95%;
         float: left;
@@ -107,10 +107,11 @@ form{
         position: relative;
         top: 170%;
         width: 90%;
-    @media (min-width: 1280px){
+    @media (min-width: 1220px){
         position: relative;
         float: right;
         width: 50%;
+        margin-top: 40px;
     }
         
         }
